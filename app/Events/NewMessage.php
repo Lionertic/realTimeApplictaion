@@ -9,6 +9,7 @@ use Illuminate\Broadcasting\PresenceChannel;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
+use Illuminate\Support\Facades\Auth;
 
 class NewMessage implements ShouldBroadcast
 {
@@ -32,6 +33,13 @@ class NewMessage implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return new Channel('chat-channel');
+        return new PrivateChannel("chat.".$this->message->to_id);
+    }
+
+    public function broadcastWith(){
+        return [
+            'from' => $this->message->from_id,
+            'message' => $this->message->text
+        ];
     }
 }

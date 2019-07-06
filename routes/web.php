@@ -24,3 +24,7 @@ Route::get('/getAll','ChatController@getMessages');
 
 // Allows us to post new message
 Route::post('/post','ChatController@sendMessage');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -15,6 +15,8 @@ class CreateMessagesTable extends Migration
     {
         Schema::create('messages', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('from_id')->unsigned();
+            $table->integer('to_id')->unsigned();
             $table->string('text');
             $table->timestamps();
         });
