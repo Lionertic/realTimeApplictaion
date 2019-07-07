@@ -26,11 +26,26 @@ services:
     restart: unless-stopped
     tty: true
     ports:
-      - "80:80"
-      - "443:443"
+      - 8080:80
     volumes:
       - ./:/var/www/html
       - ./DockerConfig/conf.d/:/etc/nginx/conf.d/
+    networks:
+      - mynet
+
+  flask:
+    build:
+      context: ./
+      dockerfile: ./Flask/Dockerfile
+    image: flask:0.0.1
+    container_name: flask
+    volumes:
+      - ./Flask:/code
+    environment:
+      - FLASK_APP=/code/main.py
+    command: flask run --host=0.0.0.0
+    ports:
+      - 8090:5000
     networks:
       - mynet
 
@@ -49,6 +64,21 @@ services:
       MYSQL_ROOT_PASSWORD: root
     volumes:
       - mysqldata:/var/lib/mysql/
+    networks:
+      - mynet
+
+  #PhpMyAdmin Service
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    links:
+      - db:db
+    ports:
+      - 8183:80
+    environment:
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
     networks:
       - mynet
 
