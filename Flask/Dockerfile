@@ -1,3 +1,3 @@
-FROM python:3.6-alpine as BASE
+FROM python:3.6-alpine
 
 RUN pip install flask

@@ -21,18 +21,19 @@ services:
 
   #Nginx Service
   nginx:
-    image: nginx:alpine
+    image: nginx:latest
     container_name: nginx
     restart: unless-stopped
     tty: true
     ports:
-      - 8080:80
+      - "80:80"
     volumes:
       - ./:/var/www/html
       - ./DockerConfig/conf.d/:/etc/nginx/conf.d/
     networks:
       - mynet
 
+  #Flask Service
   flask:
     build:
       context: ./
@@ -40,12 +41,12 @@ services:
     image: flask:0.0.1
     container_name: flask
     volumes:
-      - ./Flask:/code
+      - ./Flask/code:/code
     environment:
       - FLASK_APP=/code/main.py
     command: flask run --host=0.0.0.0
     ports:
-      - 8090:5000
+      - "8090:5000"
     networks:
       - mynet
 
@@ -70,11 +71,12 @@ services:
   #PhpMyAdmin Service
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
     restart: always
     links:
       - db:db
     ports:
-      - 8183:80
+      - "8183:80"
     environment:
       MYSQL_USER: root
       MYSQL_PASSWORD: root
