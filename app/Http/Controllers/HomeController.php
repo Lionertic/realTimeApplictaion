@@ -24,7 +24,7 @@ class HomeController extends Controller
     public function index()
     {
         $client = new GuzzleHttp\Client();
-        $res = $client->get('flask:5000');
+        $res = $client->get('flask:8080');
         dd($res->getBody()->getContents());
         return view('home');
     }

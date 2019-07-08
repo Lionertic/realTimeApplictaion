@@ -4,9 +4,9 @@ services:
   #Laravel App
   app:
     build:
-      context: .
+      context: ./
       dockerfile: Dockerfile
-    image: lionertics/chat
+    image: lionertic/chat
     container_name: app
     restart: unless-stopped
     tty: true
@@ -23,13 +23,13 @@ services:
   nginx:
     image: nginx:latest
     container_name: nginx
-    restart: unless-stopped
+    restart: always
     tty: true
     ports:
       - "80:80"
     volumes:
       - ./:/var/www/html
-      - ./DockerConfig/conf.d/:/etc/nginx/conf.d/
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
     networks:
       - mynet
 
@@ -38,15 +38,15 @@ services:
     build:
       context: ./
       dockerfile: ./Flask/Dockerfile
-    image: flask:0.0.1
     container_name: flask
+    restart: always
+    working_dir: /app
     volumes:
-      - ./Flask/code:/code
+      - ./Flask:/app
     environment:
-      - FLASK_APP=/code/main.py
-    command: flask run --host=0.0.0.0
-    ports:
-      - "8090:5000"
+      - APP_NAME=MyFlaskApp
+    expose:
+      - 8080
     networks:
       - mynet
 
