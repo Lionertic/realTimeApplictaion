@@ -40,13 +40,13 @@ services:
       dockerfile: ./Flask/Dockerfile
     container_name: flask
     restart: always
-    working_dir: /app
+    working_dir: /var/www/html
     volumes:
-      - ./Flask:/app
+      - ./Flask/app:/var/www/html
     environment:
       - APP_NAME=MyFlaskApp
     expose:
-      - 8080
+      - 80
     networks:
       - mynet
 

@@ -8,29 +8,35 @@ COPY composer.lock composer.json /var/www/html/
 WORKDIR /var/www/html
 
 # Install Additional dependencies
-RUN apk update && apk add --no-cache \
-    build-base shadow vim curl \
-    php7 \
-    php7-fpm \
-    php7-common \
-    php7-pdo \
-    php7-pdo_mysql \
-    php7-mysqli \
-    php7-mcrypt \
-    php7-mbstring \
-    php7-xml \
-    php7-openssl \
-    php7-json \
-    php7-phar \
-    php7-zip \
-    php7-gd \
-    php7-dom \
-    php7-session \
-    php7-zlib
+RUN apk --update add wget \
+  curl \
+  git \
+  grep \
+  build-base \
+  libmemcached-dev \
+  libmcrypt-dev \
+  libxml2-dev \
+  imagemagick-dev \
+  pcre-dev \
+  libtool \
+  make \
+  autoconf \
+  g++ \
+  cyrus-sasl-dev \
+  libgsasl-dev \
+  supervisor \
+  git
 
 # Add and Enable PHP-PDO Extenstions
-RUN docker-php-ext-install pdo pdo_mysql
-RUN docker-php-ext-enable pdo_mysql
+RUN docker-php-ext-install mysqli mbstring pdo pdo_mysql tokenizer xml
+
+RUN pecl channel-update pecl.php.net \
+    && pecl install memcached \
+    && pecl install imagick \
+    && pecl install mcrypt-1.0.1 \
+    && docker-php-ext-enable memcached \
+    && docker-php-ext-enable imagick \
+    && docker-php-ext-enable mcrypt
 
 # Install PHP Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
@@ -39,13 +45,13 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN rm -rf /var/cache/apk/*
 
 # Add UID '1000' to www-data
-RUN usermod -u 1000 www-data
-
-# Copy existing application directory permissions
-COPY --chown=www-data:www-data . /var/www/html
-
-# Change current user to www
-USER www-data
+#RUN usermod -u 1000 www-data
+#
+## Copy existing application directory permissions
+#COPY --chown=www-data:www-data . /var/www/html
+#
+## Change current user to www
+#USER www-data
 
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
