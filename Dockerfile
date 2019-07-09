@@ -1,6 +1,8 @@
 # Set master image
 FROM php:7.2-fpm-alpine
 
+MAINTAINER Lionertic <udayacharan.20cs@licet.ac.in>
+
 # Copy composer.lock and composer.json
 COPY composer.lock composer.json /var/www/html/
 

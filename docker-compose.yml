@@ -6,7 +6,7 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-    image: lionertic/chat
+    image: lionertic/chat:init
     container_name: app
     restart: unless-stopped
     tty: true
@@ -38,6 +38,7 @@ services:
     build:
       context: ./
       dockerfile: ./Flask/Dockerfile
+    image: lionertic/machine:init
     container_name: flask
     restart: always
     working_dir: /var/www/html

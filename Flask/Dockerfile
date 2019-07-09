@@ -1,6 +1,6 @@
 FROM python:2.7
 
-MAINTAINER Adriano Vieira <adriano.svieira at gmail.com>
+MAINTAINER Lionertic <udayacharan.20cs@licet.ac.in>
 
 # install base packs
 # apache.wsgi python pip
