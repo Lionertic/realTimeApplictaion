@@ -57,31 +57,32 @@ services:
     container_name: db
     restart: unless-stopped
     tty: true
-    ports:
-      - "3306:3306"
+    expose:
+      - 3306
     environment:
       MYSQL_DATABASE: newChat
       MYSQL_USER: root
       MYSQL_PASSWORD: root
       MYSQL_ROOT_PASSWORD: root
     volumes:
-      - mysqldata:/var/lib/mysql/
+      - chatdata:/var/lib/mysql/
     networks:
       - mynet
 
   #PhpMyAdmin Service
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin
+    image: phpmyadmin/phpmyadmin:4.7
     container_name: phpmyadmin
     restart: always
-    links:
-      - db:db
+    depends_on:
+      - db
     ports:
       - "8183:80"
     environment:
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
-      MYSQL_ROOT_PASSWORD: root
+      - PMA_HOST=db
+      - PMA_PORT=3306
+    volumes:
+      - /sessions
     networks:
       - mynet
 
@@ -91,5 +92,5 @@ networks:
     driver: bridge
 #Volumes
 volumes:
-  mysqldata:
+  chatdata:
     driver: local
