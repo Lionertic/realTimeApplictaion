@@ -1,4 +1,4 @@
-FROM php:7.2-fpm-alpine
+FROM php:7.3-fpm-alpine
 
 MAINTAINER Lionertic <udayacharan.20cs@licet.ac.in>
 
@@ -32,15 +32,23 @@ RUN docker-php-ext-install mysqli mbstring pdo pdo_mysql tokenizer xml
 RUN pecl channel-update pecl.php.net \
     && pecl install memcached \
     && pecl install imagick \
-    && pecl install mcrypt-1.0.1 \
     && docker-php-ext-enable memcached \
-    && docker-php-ext-enable imagick \
-    && docker-php-ext-enable mcrypt
+    && docker-php-ext-enable imagick
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 RUN rm -rf /var/cache/apk/*
 
+
+COPY ./config_files/supervisor/ /etc/supervisor/conf.d/
+COPY ./config_files/supervisord.conf /etc/
+
+COPY ./config_files/crontab/crontab /etc/cron.d/artisan-scheduler
+
+RUN crontab /etc/cron.d/artisan-scheduler
+RUN chmod 0644 /etc/cron.d/
+
 EXPOSE 9000
 
-CMD ["php-fpm"]
+ENTRYPOINT ["/usr/bin/supervisord"]
+

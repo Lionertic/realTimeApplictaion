@@ -28,3 +28,12 @@ Route::post('/post','ChatController@sendMessage');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('email-test', function(){
+
+    $details['email'] = 'udayacharan.20cs@licet.ac.in';
+
+    dispatch(new App\Jobs\SendEmailJob($details));
+
+    dd('done');
+});

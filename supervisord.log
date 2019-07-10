@@ -1,0 +1,832 @@
+2019-07-10 12:19:33,796 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 12:19:33,796 WARN For [program:sprw-queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 12:19:33,796 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 12:19:33,804 INFO supervisord started with pid 1
+2019-07-10 12:19:35,111 INFO spawned: 'sprw-queue-worker-email_00' with pid 7
+2019-07-10 12:19:35,112 INFO spawned: 'php-fpm' with pid 8
+2019-07-10 12:19:36,443 INFO success: sprw-queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:19:36,443 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:31:55,347 WARN received SIGQUIT indicating exit request
+2019-07-10 12:31:55,348 INFO waiting for sprw-queue-worker-email_00, php-fpm to die
+2019-07-10 12:31:55,355 INFO stopped: php-fpm (exit status 0)
+2019-07-10 12:31:55,359 INFO stopped: sprw-queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 12:32:10,237 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 12:32:10,238 WARN For [program:sprw-queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 12:32:10,238 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 12:32:10,243 INFO supervisord started with pid 1
+2019-07-10 12:32:11,250 INFO spawned: 'sprw-queue-worker-email_00' with pid 7
+2019-07-10 12:32:11,252 INFO spawned: 'php-fpm' with pid 8
+2019-07-10 12:32:12,280 INFO success: sprw-queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:32:12,281 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:34:37,140 WARN received SIGQUIT indicating exit request
+2019-07-10 12:34:37,142 INFO waiting for sprw-queue-worker-email_00, php-fpm to die
+2019-07-10 12:34:37,148 INFO stopped: php-fpm (exit status 0)
+2019-07-10 12:34:37,153 INFO stopped: sprw-queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 12:35:19,387 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 12:35:19,387 WARN For [program:sprw-queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 12:35:19,387 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 12:35:19,392 INFO supervisord started with pid 1
+2019-07-10 12:35:20,399 INFO spawned: 'sprw-queue-worker-email_00' with pid 7
+2019-07-10 12:35:20,401 INFO spawned: 'php-fpm' with pid 8
+2019-07-10 12:35:21,418 INFO success: sprw-queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:35:21,418 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:35:21,425 INFO exited: sprw-queue-worker-email_00 (exit status 1; not expected)
+2019-07-10 12:35:22,434 INFO spawned: 'sprw-queue-worker-email_00' with pid 17
+2019-07-10 12:35:23,416 INFO exited: sprw-queue-worker-email_00 (exit status 1; not expected)
+2019-07-10 12:35:24,423 INFO spawned: 'sprw-queue-worker-email_00' with pid 24
+2019-07-10 12:35:25,424 INFO success: sprw-queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:35:25,508 INFO exited: sprw-queue-worker-email_00 (exit status 1; not expected)
+2019-07-10 12:35:26,516 INFO spawned: 'sprw-queue-worker-email_00' with pid 31
+2019-07-10 12:35:27,490 INFO exited: sprw-queue-worker-email_00 (exit status 1; not expected)
+2019-07-10 12:35:28,498 INFO spawned: 'sprw-queue-worker-email_00' with pid 38
+2019-07-10 12:35:29,336 INFO exited: sprw-queue-worker-email_00 (exit status 1; not expected)
+2019-07-10 12:35:31,426 INFO spawned: 'sprw-queue-worker-email_00' with pid 45
+2019-07-10 12:35:32,228 INFO exited: sprw-queue-worker-email_00 (exit status 1; not expected)
+2019-07-10 12:35:35,555 INFO spawned: 'sprw-queue-worker-email_00' with pid 52
+2019-07-10 12:35:36,381 INFO exited: sprw-queue-worker-email_00 (exit status 1; not expected)
+2019-07-10 12:35:37,384 INFO gave up: sprw-queue-worker-email_00 entered FATAL state, too many start retries too quickly
+2019-07-10 12:37:25,838 WARN received SIGQUIT indicating exit request
+2019-07-10 12:37:25,839 INFO waiting for php-fpm to die
+2019-07-10 12:37:25,846 INFO stopped: php-fpm (exit status 0)
+2019-07-10 12:38:26,563 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 12:38:26,564 WARN For [program:sprw-queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 12:38:26,564 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 12:38:26,569 INFO supervisord started with pid 1
+2019-07-10 12:38:27,575 INFO spawned: 'sprw-queue-worker-email_00' with pid 7
+2019-07-10 12:38:27,577 INFO spawned: 'php-fpm' with pid 8
+2019-07-10 12:38:28,608 INFO success: sprw-queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:38:28,608 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:39:27,658 WARN received SIGQUIT indicating exit request
+2019-07-10 12:39:27,658 INFO waiting for sprw-queue-worker-email_00, php-fpm to die
+2019-07-10 12:39:27,662 INFO stopped: php-fpm (exit status 0)
+2019-07-10 12:39:27,665 INFO stopped: sprw-queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 12:40:09,951 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 12:40:09,952 WARN For [program:sprw-queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 12:40:09,952 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 12:40:09,957 INFO supervisord started with pid 1
+2019-07-10 12:40:10,964 INFO spawned: 'sprw-queue-worker-email_00' with pid 7
+2019-07-10 12:40:10,966 INFO spawned: 'php-fpm' with pid 8
+2019-07-10 12:40:11,996 INFO success: sprw-queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:40:11,996 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:41:51,544 WARN received SIGQUIT indicating exit request
+2019-07-10 12:41:51,544 INFO waiting for sprw-queue-worker-email_00, php-fpm to die
+2019-07-10 12:41:51,549 INFO stopped: php-fpm (exit status 0)
+2019-07-10 12:41:51,552 INFO stopped: sprw-queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 12:42:40,244 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 12:42:40,244 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 12:42:40,245 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 12:42:40,251 INFO supervisord started with pid 1
+2019-07-10 12:42:41,254 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 12:42:41,258 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 12:42:42,282 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:42:42,282 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:57:28,364 WARN received SIGQUIT indicating exit request
+2019-07-10 12:57:28,365 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 12:57:28,370 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 12:57:28,378 INFO stopped: php-fpm (exit status 0)
+2019-07-10 12:58:55,645 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 12:58:55,646 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 12:58:55,646 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 12:58:55,646 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 12:58:55,647 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 12:58:55,647 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 12:58:55,651 INFO supervisord started with pid 1
+2019-07-10 12:58:56,654 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 12:58:56,655 INFO spawned: 'crontab-artisan-scheduler' with pid 8
+2019-07-10 12:58:56,660 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 12:58:56,668 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 12:58:57,682 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:58:57,684 INFO spawned: 'crontab-artisan-scheduler' with pid 18
+2019-07-10 12:58:57,684 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 12:58:57,689 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 12:58:59,693 INFO spawned: 'crontab-artisan-scheduler' with pid 19
+2019-07-10 12:58:59,700 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 12:59:02,705 INFO spawned: 'crontab-artisan-scheduler' with pid 20
+2019-07-10 12:59:02,771 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 12:59:02,772 INFO gave up: crontab-artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 12:59:55,092 WARN received SIGQUIT indicating exit request
+2019-07-10 12:59:55,092 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 12:59:55,096 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 12:59:56,101 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:00:53,852 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:00:53,852 WARN For [program:crontab-artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:00:53,853 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:00:53,853 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:00:53,853 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 13:00:53,854 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:00:53,854 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:00:53,854 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:00:53,857 INFO supervisord started with pid 1
+2019-07-10 13:00:54,862 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:00:54,864 INFO spawned: 'crontab-artisan-scheduler' with pid 8
+2019-07-10 13:00:54,874 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 13:00:54,874 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:00:55,895 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:00:55,899 INFO spawned: 'crontab-artisan-scheduler' with pid 18
+2019-07-10 13:00:55,899 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:00:55,905 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:00:57,914 INFO spawned: 'crontab-artisan-scheduler' with pid 19
+2019-07-10 13:00:57,920 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:01:00,929 INFO spawned: 'crontab-artisan-scheduler' with pid 20
+2019-07-10 13:01:00,937 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:01:00,938 INFO gave up: crontab-artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 13:01:54,122 WARN received SIGQUIT indicating exit request
+2019-07-10 13:01:54,122 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:01:54,125 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:01:55,130 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:03:00,464 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:03:00,464 WARN For [program:crontab-artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:03:00,467 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:03:00,468 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:03:00,468 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 13:03:00,469 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:03:00,470 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:03:00,470 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:03:00,474 INFO supervisord started with pid 1
+2019-07-10 13:03:01,481 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:03:01,483 INFO spawned: 'crontab-artisan-scheduler' with pid 8
+2019-07-10 13:03:01,486 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 13:03:01,491 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:03:02,512 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:03:02,518 INFO spawned: 'crontab-artisan-scheduler' with pid 18
+2019-07-10 13:03:02,518 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:03:02,525 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:03:04,533 INFO spawned: 'crontab-artisan-scheduler' with pid 19
+2019-07-10 13:03:04,540 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:03:07,549 INFO spawned: 'crontab-artisan-scheduler' with pid 20
+2019-07-10 13:03:07,556 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:03:07,557 INFO gave up: crontab-artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 13:04:01,530 WARN received SIGQUIT indicating exit request
+2019-07-10 13:04:01,530 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:04:01,534 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:04:02,539 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:05:48,295 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:05:48,296 WARN For [program:crontab-artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:05:48,296 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:05:48,296 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:05:48,297 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 13:05:48,297 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:05:48,297 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:05:48,298 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:05:48,303 INFO supervisord started with pid 1
+2019-07-10 13:05:49,309 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:05:49,311 INFO spawned: 'crontab-artisan-scheduler' with pid 8
+2019-07-10 13:05:49,314 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 13:05:49,328 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:05:50,352 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:05:50,358 INFO spawned: 'crontab-artisan-scheduler' with pid 18
+2019-07-10 13:05:50,359 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:05:50,362 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:05:52,370 INFO spawned: 'crontab-artisan-scheduler' with pid 19
+2019-07-10 13:05:52,374 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:05:55,383 INFO spawned: 'crontab-artisan-scheduler' with pid 20
+2019-07-10 13:05:55,389 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:05:55,390 INFO gave up: crontab-artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 13:06:21,570 WARN received SIGQUIT indicating exit request
+2019-07-10 13:06:21,571 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:06:21,574 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:06:22,579 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:07:26,973 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:07:26,973 WARN For [program:crontab-artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:07:26,973 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:07:26,974 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:07:26,974 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 13:07:26,974 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:07:26,974 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:07:26,975 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:07:26,980 INFO supervisord started with pid 1
+2019-07-10 13:07:27,987 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:07:27,990 INFO spawned: 'crontab-artisan-scheduler' with pid 8
+2019-07-10 13:07:27,993 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 13:07:28,013 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:07:29,028 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:07:29,033 INFO spawned: 'crontab-artisan-scheduler' with pid 18
+2019-07-10 13:07:29,033 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:07:29,037 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:07:31,045 INFO spawned: 'crontab-artisan-scheduler' with pid 19
+2019-07-10 13:07:31,050 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:07:34,060 INFO spawned: 'crontab-artisan-scheduler' with pid 20
+2019-07-10 13:07:34,064 INFO exited: crontab-artisan-scheduler (exit status 1; not expected)
+2019-07-10 13:07:34,065 INFO gave up: crontab-artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 13:09:18,432 WARN received SIGQUIT indicating exit request
+2019-07-10 13:09:18,432 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:09:18,434 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:09:19,439 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:10:26,081 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:10:26,081 WARN For [program:crontab-artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:10:26,081 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:10:26,082 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:10:26,082 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 13:10:26,082 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:10:26,083 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:10:26,083 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:10:26,086 INFO supervisord started with pid 1
+2019-07-10 13:10:27,093 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:10:27,096 INFO spawned: 'crontab-artisan-scheduler' with pid 8
+2019-07-10 13:10:27,100 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 13:10:28,125 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:10:28,125 INFO success: crontab-artisan-scheduler entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:10:28,126 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:17:09,439 WARN received SIGQUIT indicating exit request
+2019-07-10 13:17:09,443 INFO waiting for php-fpm, crontab-artisan-scheduler, queue-worker-email_00 to die
+2019-07-10 13:17:09,447 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:17:09,448 INFO stopped: crontab-artisan-scheduler (terminated by SIGTERM)
+2019-07-10 13:17:09,455 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:19:32,984 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:19:32,984 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:19:32,984 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:19:32,984 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:19:32,984 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:19:32,984 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:19:32,988 INFO supervisord started with pid 1
+2019-07-10 13:19:33,993 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:19:33,997 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 13:19:35,023 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:19:35,023 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:21:15,005 WARN received SIGQUIT indicating exit request
+2019-07-10 13:21:15,005 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:21:15,008 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:21:15,015 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:21:29,500 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:21:29,500 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:21:29,500 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:21:29,500 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:21:29,500 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:21:29,501 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:21:29,504 INFO supervisord started with pid 1
+2019-07-10 13:21:30,511 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:21:30,514 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 13:21:31,546 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:21:31,546 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:25:51,170 WARN received SIGQUIT indicating exit request
+2019-07-10 13:25:51,170 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:25:51,174 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:25:51,184 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:26:27,754 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:26:27,754 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:26:27,755 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:26:27,755 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:26:27,756 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:26:27,756 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:26:27,762 INFO supervisord started with pid 1
+2019-07-10 13:26:28,768 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:26:28,771 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 13:26:29,797 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:26:29,797 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:34:20,213 WARN received SIGQUIT indicating exit request
+2019-07-10 13:34:20,213 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:34:20,216 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:34:20,221 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:35:07,073 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:35:07,073 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:35:07,073 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:35:07,074 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:35:07,074 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:35:07,074 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:35:07,079 INFO supervisord started with pid 1
+2019-07-10 13:35:08,084 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:35:08,087 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 13:35:09,114 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:35:09,115 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:35:51,452 WARN received SIGQUIT indicating exit request
+2019-07-10 13:35:51,453 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:35:51,456 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:35:51,461 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:36:32,950 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:36:32,950 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:36:32,950 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:36:32,951 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:36:32,951 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:36:32,951 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:36:32,954 INFO supervisord started with pid 1
+2019-07-10 13:36:33,961 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:36:33,964 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 13:36:34,995 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:36:34,995 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:43:38,275 WARN received SIGQUIT indicating exit request
+2019-07-10 13:43:38,276 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:43:38,281 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:43:38,287 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:44:20,297 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:44:20,298 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:44:20,298 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:44:20,298 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:44:20,298 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:44:20,298 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:44:20,300 INFO supervisord started with pid 1
+2019-07-10 13:44:21,306 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:44:21,309 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 13:44:22,341 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:44:22,341 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:47:45,632 WARN received SIGQUIT indicating exit request
+2019-07-10 13:47:45,632 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:47:45,637 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:47:45,641 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:50:35,434 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:50:35,435 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:50:35,435 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:50:35,435 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 13:50:35,436 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:50:35,436 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:50:35,436 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:50:35,493 INFO supervisord started with pid 1
+2019-07-10 13:50:36,498 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:50:36,501 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 13:50:37,665 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:50:37,665 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:52:21,805 WARN received SIGQUIT indicating exit request
+2019-07-10 13:52:21,807 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:52:21,820 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:52:21,825 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:54:45,572 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:54:45,572 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:54:45,573 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:54:45,573 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 13:54:45,573 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:54:45,574 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:54:45,574 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:54:45,577 INFO supervisord started with pid 1
+2019-07-10 13:54:46,582 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:54:46,584 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 13:54:47,618 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:54:47,619 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:55:23,835 WARN received SIGQUIT indicating exit request
+2019-07-10 13:55:23,835 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:55:23,839 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:55:23,845 INFO stopped: php-fpm (exit status 0)
+2019-07-10 13:56:00,641 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 13:56:00,642 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:56:00,642 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 13:56:00,642 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 13:56:00,642 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 13:56:00,642 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 13:56:00,643 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 13:56:00,650 INFO supervisord started with pid 1
+2019-07-10 13:56:01,656 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 13:56:01,659 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 13:56:02,692 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:56:02,693 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 13:56:51,092 WARN received SIGQUIT indicating exit request
+2019-07-10 13:56:51,092 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 13:56:51,096 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 13:56:51,101 INFO stopped: php-fpm (exit status 0)
+2019-07-10 14:50:21,234 CRIT Supervisor running as root (no user in config file)
+2019-07-10 14:50:21,234 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 14:50:21,236 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 14:50:21,236 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 14:50:21,236 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 14:50:21,237 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 14:50:21,237 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 14:50:21,247 INFO supervisord started with pid 1
+2019-07-10 14:50:22,250 INFO spawnerr: can't find command 'php-fpm'
+2019-07-10 14:50:22,257 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 14:50:23,259 INFO spawnerr: can't find command 'php-fpm'
+2019-07-10 14:50:23,260 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 14:50:25,262 INFO spawnerr: can't find command 'php-fpm'
+2019-07-10 14:50:28,267 INFO spawnerr: can't find command 'php-fpm'
+2019-07-10 14:50:28,268 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2019-07-10 14:50:35,764 WARN received SIGTERM indicating exit request
+2019-07-10 14:50:35,765 INFO waiting for queue-worker-email_00 to die
+2019-07-10 14:50:38,768 INFO waiting for queue-worker-email_00 to die
+2019-07-10 14:50:38,801 INFO stopped: queue-worker-email_00 (exit status 0)
+2019-07-10 14:50:50,242 CRIT Supervisor running as root (no user in config file)
+2019-07-10 14:50:50,243 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 14:50:50,243 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 14:50:50,243 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 14:50:50,244 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 14:50:50,244 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 14:50:50,245 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 14:50:50,249 INFO supervisord started with pid 1
+2019-07-10 14:50:51,250 INFO spawnerr: can't find command 'php-fpm'
+2019-07-10 14:50:51,256 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 14:50:52,258 INFO spawnerr: can't find command 'php-fpm'
+2019-07-10 14:50:52,258 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 14:50:54,262 INFO spawnerr: can't find command 'php-fpm'
+2019-07-10 14:51:27,823 CRIT Supervisor running as root (no user in config file)
+2019-07-10 14:51:27,823 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 14:51:27,824 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 14:51:27,824 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 14:51:27,824 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 14:51:27,824 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 14:51:27,825 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 14:51:27,828 INFO supervisord started with pid 1
+2019-07-10 14:51:28,832 INFO spawned: 'php-fpm' with pid 8
+2019-07-10 14:51:28,837 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 14:51:29,899 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 14:51:29,900 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 14:53:10,669 WARN received SIGTERM indicating exit request
+2019-07-10 14:53:10,669 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 14:53:13,673 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 14:53:13,687 INFO stopped: queue-worker-email_00 (exit status 0)
+2019-07-10 14:53:13,694 INFO stopped: php-fpm (exit status 0)
+2019-07-10 14:53:25,784 CRIT Supervisor running as root (no user in config file)
+2019-07-10 14:53:25,785 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 14:53:25,786 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 14:53:25,786 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 14:53:25,787 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 14:53:25,787 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 14:53:25,788 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-07-10 14:53:25,794 INFO supervisord started with pid 1
+2019-07-10 14:53:26,801 INFO spawned: 'php-fpm' with pid 8
+2019-07-10 14:53:26,804 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 14:53:27,839 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 14:53:27,839 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 14:54:55,262 WARN received SIGTERM indicating exit request
+2019-07-10 14:54:55,262 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 14:54:55,284 INFO stopped: queue-worker-email_00 (exit status 0)
+2019-07-10 14:54:55,294 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:04:21,116 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:04:21,117 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:04:21,117 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:04:21,117 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:04:21,118 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:04:21,118 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:04:21,118 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:04:21,121 INFO supervisord started with pid 1
+2019-07-10 15:04:22,123 INFO spawnerr: can't find command 'php-fpm7.2'
+2019-07-10 15:04:22,124 INFO spawnerr: can't find command '/etc/init.d/crond'
+2019-07-10 15:04:22,129 INFO spawned: 'queue-worker-email_00' with pid 7
+2019-07-10 15:04:23,131 INFO spawnerr: can't find command 'php-fpm7.2'
+2019-07-10 15:04:23,131 INFO spawnerr: can't find command '/etc/init.d/crond'
+2019-07-10 15:04:23,131 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:04:25,135 INFO spawnerr: can't find command 'php-fpm7.2'
+2019-07-10 15:04:25,135 INFO spawnerr: can't find command '/etc/init.d/crond'
+2019-07-10 15:04:28,140 INFO spawnerr: can't find command 'php-fpm7.2'
+2019-07-10 15:04:28,141 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2019-07-10 15:04:28,142 INFO spawnerr: can't find command '/etc/init.d/crond'
+2019-07-10 15:04:28,142 INFO gave up: artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 15:04:37,046 WARN received SIGQUIT indicating exit request
+2019-07-10 15:04:37,047 INFO waiting for queue-worker-email_00 to die
+2019-07-10 15:04:37,051 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:05:23,695 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:05:23,695 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:05:23,695 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:05:23,696 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:05:23,696 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:05:23,696 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:05:23,697 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:05:23,701 INFO supervisord started with pid 1
+2019-07-10 15:05:24,707 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:05:24,709 INFO spawned: 'artisan-scheduler' with pid 8
+2019-07-10 15:05:24,713 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 15:05:24,716 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:05:25,792 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:05:25,797 INFO spawned: 'artisan-scheduler' with pid 19
+2019-07-10 15:05:25,797 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:05:25,802 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:05:27,810 INFO spawned: 'artisan-scheduler' with pid 21
+2019-07-10 15:05:27,815 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:05:30,824 INFO spawned: 'artisan-scheduler' with pid 23
+2019-07-10 15:05:30,828 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:05:30,829 INFO gave up: artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 15:09:31,367 WARN received SIGQUIT indicating exit request
+2019-07-10 15:09:31,367 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 15:09:31,371 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:09:32,376 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:10:19,892 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:10:19,892 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:10:19,892 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:10:19,892 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:10:19,893 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:10:19,893 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:10:19,893 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:10:19,896 INFO supervisord started with pid 1
+2019-07-10 15:10:20,902 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:10:20,905 INFO spawned: 'artisan-scheduler' with pid 8
+2019-07-10 15:10:20,909 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 15:10:20,910 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:10:21,936 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:10:21,942 INFO spawned: 'artisan-scheduler' with pid 19
+2019-07-10 15:10:21,942 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:10:21,946 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:10:23,954 INFO spawned: 'artisan-scheduler' with pid 21
+2019-07-10 15:10:23,958 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:10:26,968 INFO spawned: 'artisan-scheduler' with pid 23
+2019-07-10 15:10:26,972 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:10:26,974 INFO gave up: artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 15:16:33,394 WARN received SIGQUIT indicating exit request
+2019-07-10 15:16:33,394 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 15:16:33,397 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:16:34,403 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:27:42,973 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:27:42,973 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:27:42,974 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:27:42,974 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:27:42,974 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:27:42,974 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:27:42,974 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:27:42,983 INFO supervisord started with pid 1
+2019-07-10 15:27:43,988 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:27:43,990 INFO spawned: 'artisan-scheduler' with pid 8
+2019-07-10 15:27:43,992 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 15:27:43,997 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:27:45,063 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:27:45,069 INFO spawned: 'artisan-scheduler' with pid 19
+2019-07-10 15:27:45,070 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:27:45,074 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:27:47,081 INFO spawned: 'artisan-scheduler' with pid 21
+2019-07-10 15:27:47,085 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:27:50,095 INFO spawned: 'artisan-scheduler' with pid 23
+2019-07-10 15:27:50,099 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:27:51,102 INFO gave up: artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 15:28:51,520 WARN received SIGQUIT indicating exit request
+2019-07-10 15:28:51,521 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 15:28:51,525 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:28:52,529 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:39:06,368 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:39:06,368 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:39:06,369 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:39:06,369 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:39:06,369 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:39:06,369 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:39:06,369 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:39:06,374 INFO supervisord started with pid 1
+2019-07-10 15:39:07,380 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:39:07,385 INFO spawned: 'artisan-scheduler' with pid 8
+2019-07-10 15:39:07,389 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 15:39:07,395 INFO exited: artisan-scheduler (exit status 1; not expected)
+2019-07-10 15:39:08,482 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:39:08,486 INFO spawned: 'artisan-scheduler' with pid 18
+2019-07-10 15:39:08,489 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:39:08,497 INFO exited: artisan-scheduler (exit status 1; not expected)
+2019-07-10 15:39:10,505 INFO spawned: 'artisan-scheduler' with pid 19
+2019-07-10 15:39:10,512 INFO exited: artisan-scheduler (exit status 1; not expected)
+2019-07-10 15:39:13,523 INFO spawned: 'artisan-scheduler' with pid 20
+2019-07-10 15:39:13,529 INFO exited: artisan-scheduler (exit status 1; not expected)
+2019-07-10 15:39:13,530 INFO gave up: artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 15:40:12,314 WARN received SIGQUIT indicating exit request
+2019-07-10 15:40:12,315 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 15:40:12,317 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:40:13,326 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:40:52,209 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:40:52,211 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:40:52,211 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:40:52,211 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:40:52,212 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:40:52,212 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:40:52,212 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:40:52,218 INFO supervisord started with pid 1
+2019-07-10 15:40:53,224 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:40:53,228 INFO spawned: 'artisan-scheduler' with pid 8
+2019-07-10 15:40:53,231 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 15:40:54,257 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:40:54,257 INFO success: artisan-scheduler entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:40:54,258 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:41:39,466 WARN received SIGQUIT indicating exit request
+2019-07-10 15:41:39,466 INFO waiting for php-fpm, artisan-scheduler, queue-worker-email_00 to die
+2019-07-10 15:41:39,470 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:41:39,471 INFO stopped: artisan-scheduler (terminated by SIGTERM)
+2019-07-10 15:41:39,476 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:42:21,796 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:42:21,797 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:42:21,797 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:42:21,797 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:42:21,797 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:42:21,798 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:42:21,798 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:42:21,804 INFO supervisord started with pid 1
+2019-07-10 15:42:22,810 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:42:22,812 INFO spawned: 'artisan-scheduler' with pid 8
+2019-07-10 15:42:22,817 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 15:42:22,827 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:42:23,840 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:42:23,845 INFO spawned: 'artisan-scheduler' with pid 19
+2019-07-10 15:42:23,845 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:42:23,849 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:42:25,858 INFO spawned: 'artisan-scheduler' with pid 21
+2019-07-10 15:42:25,862 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:42:28,873 INFO spawned: 'artisan-scheduler' with pid 23
+2019-07-10 15:42:28,877 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:42:28,877 INFO gave up: artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 15:43:44,917 WARN received SIGQUIT indicating exit request
+2019-07-10 15:43:44,917 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 15:43:44,922 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:43:45,928 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:44:19,510 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:44:19,510 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:44:19,511 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:44:19,511 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:44:19,511 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:44:19,512 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:44:19,515 INFO supervisord started with pid 1
+2019-07-10 15:44:20,521 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:44:20,524 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 15:44:21,552 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:44:21,552 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:46:12,722 WARN received SIGQUIT indicating exit request
+2019-07-10 15:46:12,722 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 15:46:12,727 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:46:12,732 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:47:01,315 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:47:01,316 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:47:01,316 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:47:01,316 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:47:01,317 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:47:01,317 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:47:01,325 INFO supervisord started with pid 1
+2019-07-10 15:47:02,332 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:47:02,335 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 15:47:03,361 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:47:03,361 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:47:04,693 WARN received SIGQUIT indicating exit request
+2019-07-10 15:47:04,693 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 15:47:04,696 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:47:04,700 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:47:57,940 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:47:57,940 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:47:57,941 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:47:57,941 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:47:57,941 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:47:57,942 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:47:57,946 INFO supervisord started with pid 1
+2019-07-10 15:47:58,953 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:47:58,956 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 15:47:59,985 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:47:59,986 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:49:03,076 WARN received SIGQUIT indicating exit request
+2019-07-10 15:49:03,076 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 15:49:03,079 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:49:03,087 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:49:59,000 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:49:59,001 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:49:59,001 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:49:59,002 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:49:59,002 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:49:59,003 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:49:59,007 INFO supervisord started with pid 1
+2019-07-10 15:50:00,013 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:50:00,016 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 15:50:01,046 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:50:01,046 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:50:41,315 WARN received SIGQUIT indicating exit request
+2019-07-10 15:50:41,316 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 15:50:41,319 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:50:41,324 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:51:56,450 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:51:56,451 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:51:56,451 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:51:56,451 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:51:56,451 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:51:56,451 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:51:56,455 INFO supervisord started with pid 1
+2019-07-10 15:51:57,461 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:51:57,464 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 15:51:58,495 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:51:58,495 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:54:19,784 WARN received SIGQUIT indicating exit request
+2019-07-10 15:54:19,784 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 15:54:19,787 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:54:19,791 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:55:04,336 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:55:04,337 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:55:04,337 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:55:04,337 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:55:04,338 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:55:04,338 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:55:04,338 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:55:04,342 INFO supervisord started with pid 1
+2019-07-10 15:55:05,348 INFO spawned: 'php-fpm' with pid 8
+2019-07-10 15:55:05,349 INFO spawned: 'artisan-scheduler' with pid 9
+2019-07-10 15:55:05,352 INFO spawned: 'queue-worker-email_00' with pid 10
+2019-07-10 15:55:05,354 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:55:06,380 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:55:06,385 INFO spawned: 'artisan-scheduler' with pid 20
+2019-07-10 15:55:06,386 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:55:06,389 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:55:08,398 INFO spawned: 'artisan-scheduler' with pid 22
+2019-07-10 15:55:08,402 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:55:11,411 INFO spawned: 'artisan-scheduler' with pid 24
+2019-07-10 15:55:11,415 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:55:12,418 INFO gave up: artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 15:55:29,189 WARN received SIGQUIT indicating exit request
+2019-07-10 15:55:29,190 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 15:55:29,192 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:55:30,197 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:56:27,727 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:56:27,727 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:56:27,727 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:56:27,727 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:56:27,727 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:56:27,727 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:56:27,727 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:56:27,733 INFO supervisord started with pid 1
+2019-07-10 15:56:28,739 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:56:28,741 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 15:56:29,769 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:56:29,769 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:58:59,808 WARN received SIGQUIT indicating exit request
+2019-07-10 15:58:59,808 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 15:58:59,812 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 15:59:00,817 INFO stopped: php-fpm (exit status 0)
+2019-07-10 15:59:40,368 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 15:59:40,368 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:59:40,369 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:59:40,369 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 15:59:40,370 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 15:59:40,370 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 15:59:40,370 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 15:59:40,374 INFO supervisord started with pid 1
+2019-07-10 15:59:41,380 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 15:59:41,383 INFO spawned: 'artisan-scheduler' with pid 8
+2019-07-10 15:59:41,386 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 15:59:41,392 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:59:42,412 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:59:42,418 INFO spawned: 'artisan-scheduler' with pid 29
+2019-07-10 15:59:42,418 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 15:59:42,422 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:59:44,431 INFO spawned: 'artisan-scheduler' with pid 31
+2019-07-10 15:59:44,435 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:59:47,445 INFO spawned: 'artisan-scheduler' with pid 33
+2019-07-10 15:59:47,450 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 15:59:47,452 INFO gave up: artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 16:02:45,543 WARN received SIGQUIT indicating exit request
+2019-07-10 16:02:45,543 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 16:02:45,546 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 16:02:46,551 INFO stopped: php-fpm (exit status 0)
+2019-07-10 16:03:34,031 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 16:03:34,031 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 16:03:34,031 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 16:03:34,032 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 16:03:34,032 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 16:03:34,032 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 16:03:34,033 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 16:03:34,036 INFO supervisord started with pid 1
+2019-07-10 16:03:35,043 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 16:03:35,045 INFO spawned: 'artisan-scheduler' with pid 8
+2019-07-10 16:03:35,047 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 16:03:35,051 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 16:03:36,079 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 16:03:36,083 INFO spawned: 'artisan-scheduler' with pid 19
+2019-07-10 16:03:36,084 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 16:03:36,087 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 16:03:38,093 INFO spawned: 'artisan-scheduler' with pid 21
+2019-07-10 16:03:38,097 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 16:03:41,107 INFO spawned: 'artisan-scheduler' with pid 23
+2019-07-10 16:03:41,111 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 16:03:41,113 INFO gave up: artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 16:06:02,044 WARN received SIGQUIT indicating exit request
+2019-07-10 16:06:02,049 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 16:06:02,055 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 16:06:03,061 INFO stopped: php-fpm (exit status 0)
+2019-07-10 16:18:58,852 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 16:18:58,853 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 16:18:58,853 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 16:18:58,853 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 16:18:58,854 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 16:18:58,854 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 16:18:58,854 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 16:18:58,859 INFO supervisord started with pid 1
+2019-07-10 16:18:59,864 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 16:18:59,866 INFO spawned: 'artisan-scheduler' with pid 8
+2019-07-10 16:18:59,869 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 16:18:59,874 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 16:19:01,032 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 16:19:01,035 INFO spawned: 'artisan-scheduler' with pid 20
+2019-07-10 16:19:01,035 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 16:19:02,036 INFO success: artisan-scheduler entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 16:19:02,470 INFO exited: artisan-scheduler (exit status 0; expected)
+2019-07-10 16:27:09,337 WARN received SIGQUIT indicating exit request
+2019-07-10 16:27:09,337 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 16:27:09,344 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 16:27:10,353 INFO stopped: php-fpm (exit status 0)
+2019-07-10 16:28:01,256 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 16:28:01,256 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 16:28:01,256 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 16:28:01,257 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 16:28:01,257 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 16:28:01,257 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 16:28:01,257 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 16:28:01,263 INFO supervisord started with pid 1
+2019-07-10 16:28:02,270 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 16:28:02,273 INFO spawned: 'queue-worker-email_00' with pid 8
+2019-07-10 16:28:03,306 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 16:28:03,307 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 16:30:02,263 WARN received SIGQUIT indicating exit request
+2019-07-10 16:30:02,263 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 16:30:02,266 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 16:30:03,272 INFO stopped: php-fpm (exit status 0)
+2019-07-10 16:30:51,293 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-10 16:30:51,294 WARN For [program:artisan-scheduler], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 16:30:51,294 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 16:30:51,294 WARN For [program:queue-worker-email], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2019-07-10 16:30:51,294 INFO Included extra file "/etc/supervisor/conf.d/crontab-artisan-scheduler.conf" during parsing
+2019-07-10 16:30:51,295 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2019-07-10 16:30:51,295 INFO Included extra file "/etc/supervisor/conf.d/queue-worker-email.conf" during parsing
+2019-07-10 16:30:51,298 INFO supervisord started with pid 1
+2019-07-10 16:30:52,304 INFO spawned: 'php-fpm' with pid 7
+2019-07-10 16:30:52,305 INFO spawned: 'artisan-scheduler' with pid 8
+2019-07-10 16:30:52,309 INFO spawned: 'queue-worker-email_00' with pid 9
+2019-07-10 16:30:52,312 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 16:30:53,338 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 16:30:53,343 INFO spawned: 'artisan-scheduler' with pid 19
+2019-07-10 16:30:53,343 INFO success: queue-worker-email_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-10 16:30:53,347 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 16:30:55,355 INFO spawned: 'artisan-scheduler' with pid 21
+2019-07-10 16:30:55,359 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 16:30:58,369 INFO spawned: 'artisan-scheduler' with pid 23
+2019-07-10 16:30:58,373 INFO exited: artisan-scheduler (exit status 0; not expected)
+2019-07-10 16:30:58,375 INFO gave up: artisan-scheduler entered FATAL state, too many start retries too quickly
+2019-07-10 16:31:46,974 WARN received SIGQUIT indicating exit request
+2019-07-10 16:31:46,974 INFO waiting for php-fpm, queue-worker-email_00 to die
+2019-07-10 16:31:46,979 INFO stopped: queue-worker-email_00 (terminated by SIGTERM)
+2019-07-10 16:31:47,984 INFO stopped: php-fpm (exit status 0)
