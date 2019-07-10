@@ -41,11 +41,9 @@ services:
     image: lionertic/machine:init
     container_name: flask
     restart: always
-    working_dir: /var/www/html
+    working_dir: /var/www/apache-flask/app/
     volumes:
-      - ./Flask/app:/var/www/html
-    environment:
-      - APP_NAME=MyFlaskApp
+      - ./Flask/app:/var/www/apache-flask/app/
     expose:
       - 80
     networks:
